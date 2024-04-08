@@ -15,85 +15,10 @@
 <link rel="stylesheet" type="text/css"
 	href="${pageContext.request.contextPath}/css/projectListing.css">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-
-
+<link rel="icon" type="image/x-icon" href="../images/logo.svg">
 <title>Online Project Management</title>
 </head>
 <body>
-	<!-- 	<main class="table" id="customers_table">
-		<section class="table__header">
-			<h1>Project Listing</h1>
-			<!--<form action="/search" method="get">
-				<div class="input-group">
-					<input type="search" name="keyword" placeholder="Search Data...">
-					<button type="submit">Search</button>
-
-				</div>
-			</form>-->
-	<!--  	<div class="input-group">
-				<input type="search" name="keyword" placeholder="Search Data...">
-				<button type="submit">Search</button>
-
-			</div>
-			
-
-			<!-- <div class="sorting-dropdown">
-				<label for="sort-by">Sort by:</label> <select id="sort-by"
-					onchange="sortProjects()">
-					<option value="priority">Priority</option>
-					<option value="category">Category</option>
-					<option value="reason">Reason</option>
-					<option value="department">Department</option>
-					<option value="location">Location</option>
-					
-				</select>
-			</div> -->
-
-	<!--	</section>
-		<section class="table__body">
-			<table>
-				<thead>
-					<tr>
-						<th>Project Name</th>
-						<th>Reason</th>
-						<th>Type</th>
-						<th>Division</th>
-						<th>Category</th>
-						<th>Priority</th>
-						<th>Dept.</th>
-						<th>Location</th>
-						<th>Status</th>
-						<th></th>
-						<th></th>
-						<th></th>
-					</tr>
-				</thead>
-				<tbody>
-					<c:forEach var="std" items="${projects}">
-						<tr>
-							<td>${std.projectName}</td>
-							<td>${std.reason}</td>
-							<td>${std.type}</td>
-							<td>${std.division}</td>
-							<td>${std.category}</td>
-							<td>${std.priority}</td>
-							<td>${std.department}</td>
-							<td>${std.location}</td>
-							<td>${std.status}</td>
-							<td><a href="<c:url value='/start/${std.projectId}'/>"
-								id="start" class="btn">Start</a></td>
-							<td><a href="<c:url value='/close/${std.projectId}'/>"
-								id="close" class="btn">Close</a></td>
-							<td><a href="<c:url value='/cancel/${std.projectId}'/>"
-								id="cancel" class="btn">Cancel</a></td>
-						</tr>
-					</c:forEach>
-				</tbody>
-			</table>
-		</section>
-	</main>-->
-
 	<div class="main">
 		<div class="left-nav">
 			<div class="svg-div">
@@ -136,8 +61,7 @@
 				<div class="search-area">
 					<form id="searchForm" action="/projectListingSearch" method="get">
 						<div class="search-box">
-							<i class="fa-solid fa-magnifying-glass"></i> 
-							<input type="search" 
+							<i class="fa-solid fa-magnifying-glass"></i> <input type="search"
 								name="keyword" placeholder="Search" id="searchInput">
 							<!-- <button type="submit" >Search</button> -->
 						</div>
@@ -176,7 +100,7 @@
 								<tr>
 									<td class="p-name">
 										<h6>${std.projectName}</h6>
-										<h6 class="date">${std.startDate} to ${std.endDate}</h6>
+										<h6 class="date">${std.startDate}to ${std.endDate}</h6>
 									</td>
 									<td>${std.reason}</td>
 									<td>${std.type}</td>
@@ -243,16 +167,17 @@
 			var searchKeyword = document.getElementById("searchInput").value;
 			window.location.href = "/sort?sortBy=" + selectedColumn;
 		}
-		
-		document.getElementById('searchInput').addEventListener('keypress', function(event) {
 
-	        if (event.keyCode === 13) {
+		document.getElementById('searchInput').addEventListener('keypress',
+				function(event) {
 
-	            event.preventDefault();
-	
-	            document.getElementById('searchForm').submit();
-	        }
-	    });
+					if (event.keyCode === 13) {
+
+						event.preventDefault();
+
+						document.getElementById('searchForm').submit();
+					}
+				});
 	</script>
 </body>
 </html>

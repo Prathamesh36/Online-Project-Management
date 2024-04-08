@@ -11,7 +11,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" type="text/css"
 	href="${pageContext.request.contextPath}/css/projectListing.css">        
-        
+<link rel="icon" type="image/x-icon" href="../images/logo.svg">
 <title>Online Project Management</title>
 </head>
 <body>
