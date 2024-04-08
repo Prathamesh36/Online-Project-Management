@@ -74,7 +74,6 @@
 							<label for="type">Type</label> <select id="type" name="type"
 								class="form-control">
 								<option selected>Internal</option>
-								<option>Internal</option>
 								<option>External</option>
 								<option>Vendor</option>
 							</select>
@@ -85,7 +84,6 @@
 								name="division" class="form-control">
 								<option selected>Filter</option>
 								<option>Compressor</option>
-								<option>Filter</option>
 								<option>Pumps</option>
 								<option>Glass</option>
 								<option>Water Heater</option>
@@ -95,7 +93,6 @@
 							<label for="category">Category</label> <select id="category"
 								name="category" class="form-control">
 								<option selected>Quality A</option>
-								<option>Quality A</option>
 								<option>Quality B</option>
 								<option>Quality C</option>
 								<option>Quality D</option>
@@ -105,7 +102,6 @@
 							<label for="priority">Priority</label> <select id="priority"
 								name="priority" class="form-control">
 								<option selected>High</option>
-								<option>High</option>
 								<option>Low</option>
 								<option>Medium</option>
 							</select>
@@ -118,6 +114,7 @@
 								<option>Quality</option>
 								<option>Maintenance</option>
 								<option>Stores</option>
+								<option>HR</option>
 							</select>
 						</div>
 						<div class="input-div">

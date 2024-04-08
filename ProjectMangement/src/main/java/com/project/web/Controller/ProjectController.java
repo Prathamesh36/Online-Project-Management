@@ -133,8 +133,8 @@ public class ProjectController {
 		totalProjects.add(projectRepository.countByDepartment("Finance"));
 		totalProjects.add(projectRepository.countByDepartment("Quality"));
 		totalProjects.add(projectRepository.countByDepartment("Maintenance"));
-		totalProjects.add(projectRepository.countByDepartment("Store"));
-		totalProjects.add(projectRepository.countByDepartment("Hr"));
+		totalProjects.add(projectRepository.countByDepartment("Stores"));
+		totalProjects.add(projectRepository.countByDepartment("HR"));
 
 		model.addAttribute("totalProjects", totalProjects);
 		
@@ -144,8 +144,8 @@ public class ProjectController {
 		totalCloseProjects.add(projectRepository.countByStatusAndDepartment("Closed","Finance"));
 		totalCloseProjects.add(projectRepository.countByStatusAndDepartment("Closed","Quality"));
 		totalCloseProjects.add(projectRepository.countByStatusAndDepartment("Closed","Maintenance"));
-		totalCloseProjects.add(projectRepository.countByStatusAndDepartment("Closed","Store"));
-		totalCloseProjects.add(projectRepository.countByStatusAndDepartment("Closed","Hr"));
+		totalCloseProjects.add(projectRepository.countByStatusAndDepartment("Closed","Stores"));
+		totalCloseProjects.add(projectRepository.countByStatusAndDepartment("Closed","HR"));
 		
 		model.addAttribute("totalCloseProjects", totalCloseProjects);
 		
