@@ -17,8 +17,6 @@ Search Functionality:
 ![Screenshot 2024-04-08 161103](https://github.com/Prathamesh36/Online-Project-Management/assets/65437511/927fd248-59ff-48e5-a3d7-af3eb6d3ffce)
 
 Sort Functionality:
-![Screenshot 2024-04-08 161142](https://github.com/Prathamesh36/Online-Project-Management/assets/65437511/ee681b0f-593e-42c0-a0a9-102138929ded)
-
 ![Screenshot 2024-04-08 161156](https://github.com/Prathamesh36/Online-Project-Management/assets/65437511/66531be0-ec21-4737-9fc8-040f9e625a87)
 
 Dashboard based on project details:
