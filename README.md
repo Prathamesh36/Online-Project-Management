@@ -13,7 +13,7 @@
 ## Form validation: (if user input EndDate smaller than StartDate then it will show error)
 ![Screenshot 2024-04-08 160835](https://github.com/Prathamesh36/Online-Project-Management/assets/65437511/503e3868-8a8e-4382-9c78-a8e94a0ca155)
 
-## Added Project List:
+## Project List:
 ![Screenshot 2024-04-08 161027](https://github.com/Prathamesh36/Online-Project-Management/assets/65437511/83744707-b14f-4057-9321-5aafa8429112)
 
 ## Search Functionality:
