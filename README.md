@@ -25,6 +25,6 @@
 ## Sort Functionality:
 ![Screenshot 2024-04-08 161156](https://github.com/Prathamesh36/Online-Project-Management/assets/65437511/66531be0-ec21-4737-9fc8-040f9e625a87)
 
-## Dashboard based on project details:
+## Dashboard:
 ![Screenshot 2024-04-08 161309](https://github.com/Prathamesh36/Online-Project-Management/assets/65437511/f7bff7b3-2527-4c8d-b558-da4947433af4)
 
